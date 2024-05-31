@@ -504,11 +504,6 @@ img {
 }
 
 .footer-container {
-  display: flex;
-  align-items: baseline;
-}
-
-.logo-text {
   margin-right: 120px;
 }
 .footer-menu {
@@ -516,7 +511,7 @@ img {
   align-items: baseline;
 }
 
-.social-media-link {
+.social-media-link-footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -525,12 +520,12 @@ img {
   height: 40px;
 }
 
-.social-media-link:focus,
-.social-media-link:hover {
+.social-media-link-footer:focus,
+.social-media-link-footer:hover {
   background-color: #31d0aa;
 }
 
-.social-media-link {
+.social-media-link-footer {
   border-radius: 50%;
   background-color: #4d5ae5;
   display: flex;
