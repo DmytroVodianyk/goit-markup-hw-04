@@ -497,16 +497,17 @@ img {
   margin-bottom: 16px;
 }
 
+.footer-menu {
+  margin-right: 120px;
+}
+
 .footer-list {
   display: flex;
   gap: 16px;
   justify-content: center;
 }
 
-.footer-container {
-  margin-right: 120px;
-}
-.footer-menu {
+.footer-menu-big {
   display: flex;
   align-items: baseline;
 }
